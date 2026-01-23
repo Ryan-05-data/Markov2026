@@ -61,6 +61,7 @@ rate from the Monte Carlo simulation, displaying why it is considered
 slow and inefficient compared to numerical methods for low-dimensions
 situations.
 
+
 Problem 4, part b
 
 ``` r
@@ -109,3 +110,4 @@ theoretical pdf. Another natural conclusion we can make when looking at
 this graph is that we see that the density increases as we get closer to
 7 pm meaning the chance that everyone has arrived is likelier, which
 intuitively makes sense.
+
