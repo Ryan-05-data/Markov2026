@@ -44,6 +44,8 @@ for (N in Ns) {
 
 <img src="Homework2_files/figure-gfm/unnamed-chunk-3-1.png" width="60%" style="display: block; margin: auto;" />
 
+As we can see by the graph, as N increase from 100 to 1000 to 10000, the histogram starts to more closely match the theoretical pdf line. For this graph, probability = TRUE makes sure the area under the curve equals 1
+
 Problem 2, part b
 
 ``` r
@@ -143,3 +145,6 @@ lines(x_vals, theory_func(x_vals), col = "red", lwd = 3)
 ```
 
 <img src="Homework2_files/figure-gfm/unnamed-chunk-12-1.png" width="60%" style="display: block; margin: auto;" />
+
+Setting probability = TRUE makes sure the area under the histogram equals 1. I chose to do the sum of exponentials method since it was the fastest of the three methods. 
+
