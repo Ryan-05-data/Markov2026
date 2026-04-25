@@ -107,6 +107,8 @@ var_time
 
     ## [1] 29150.46
 
+The theoretical value found using the equation from (b) gives a mean time of 210, as (20)(21)/2 = 210. As N increases, it seems that the mean stays pretty close to around 210, while the variance decreases as N increases
+
 # Problem 4
 
 ``` r
